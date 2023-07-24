@@ -1,0 +1,392 @@
+html {
+	scroll-behavior: smooth;
+}
+
+/*	styling the navigation section	*/
+.navbar {
+	margin: 0;
+	left: 0;
+	background-color: #252424;
+	height: 100%;
+	z-index: 10;
+	display: flex;
+	flex-direction: column;
+	position: fixed;
+	width: 17%;
+}
+.navbar img {
+	height: 150px;
+	width: 150px;
+	border: 6px solid #565656 !important;
+	border-radius: 50%;
+}
+.collapse {
+	text-align: center;
+}
+.nav-hr {
+	color: #fff;
+	width: 18px;
+	position: relative;
+	height: 1px;
+	background-color: #fff;
+}
+.green a {
+	padding-left: 13px;
+	color: grey;
+	font-size: 17px;
+}
+
+/*	styling the home section and video included	*/
+.video_wrapper {
+	position: relative;
+	height: 700px;
+	margin: 0;
+	padding: 0;
+	width: 100;
+	overflow: hidden;
+	background: grey;
+}
+.video_wrapper video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	max-width: 100%;
+	object-fit: cover;
+	transform-style: unset;
+}
+#wrapper {
+	position: relative;
+	text-align: center;
+	margin: 0 auto;
+	color: white;
+	padding: 32vh 0%;
+	z-index: 2;
+}
+#wrapper p {
+	margin-top: 20px;
+	font-size: 6vw;
+	font-weight: bold;
+}
+#wrapper button {
+	margin-top: 25px;
+	padding: 10px 41px 11px 41px;
+	font-size: 15px;
+	border-radius: 35px;
+	color: #33FFFF;
+	border: 2px solid #33FFFF;
+}
+#wrapper button:active {
+	outline: none !important;
+}
+.text-center button {
+	border-radius: 5px;
+}
+
+/*	styling several classes with the same color	*/
+.summary,
+.contform {
+	background-color: #252424;
+}
+.summary h5,
+.con0 {
+	color: ghostwhite;
+}
+.summary h6,
+.confont,
+.collapse ul li a:hover {
+	color: #33FFFF;
+}
+.summary p,
+.about1 p,
+.sumary h6,
+.port ul li,
+.con1,
+.contform,
+.collapse ul li a {
+	color: grey;
+}
+.about,
+.summ,
+.test,
+.footer {
+	background-color: #363636;
+}
+.serv,
+.port,
+.contact {
+	background-color: #565656;
+}
+.serv h5,
+.smary h4,
+#wrapper button:hover,
+.colnav h2 {
+	color: white;
+}
+.progress-bar,
+#wrapper button:hover,
+#wrapper button:active {
+	background-color: #33FFFF;
+}
+
+/*	styling the section names and the horizontal line found in each section	*/
+.div1 {
+	position: relative;
+	z-index: 1;
+	margin: 0px 0px 50px;
+	padding: 62px 5px 28px 5px;
+}
+.div2 h2 {
+	font-size: 9.5vw;
+	color: #464646;
+	font-weight: bold;
+	cursor: default;
+}
+.div3 h3 {
+	margin-top: -10%;
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+}
+.div3 hr {
+	color: #33FFFF;
+	width: 70px;
+	position: relative;
+	height: 3px;
+	border-width: 0;
+	background-color: #33FFFF;
+	margin-top: 8px;
+}
+
+/*	styling the about section	*/
+.about1 p,
+.summary p {
+	font-size: 15px;
+}
+.about2 ul li {
+	color: cornsilk;
+	font-size: 14px;
+}
+.about2 ul button {
+	margin-top: 11px;
+	padding: 9px 27px 9px 27px;
+	border-radius: 25px;
+	background-color: #33FFFF;
+	border: #33FFFF;
+}
+.about2 ul button:hover,
+.about2 ul button:active,
+.contform0 button:hover,
+.contform0 button:active {
+	background-color: #33CCFF;
+}
+.about2 ul li a:hover {
+	color: #33CCFF;
+	text-decoration: none;
+}
+.about3 {
+	color: grey;
+	padding: 40px 0% 50px;
+}
+.about3 h1 {
+	font-size: 55px;
+}
+.vl {
+	border-left: 1px solid grey;
+	position: relative;
+}
+
+/*	 styling the services section	 */
+.font {
+	background-color: #252424;
+	color: #33FFFF;
+	padding: 15px;
+	font-size: 28px;
+	border-radius: 5px;
+	font-weight: bold;
+}
+.serv p {
+	color: #CCCCFF;
+	font-size: 15px;
+}
+
+/*   styling the summary section 	*/
+#sumbtn button {
+	padding: 10px 35px 10px 35px;
+	border-radius: 45px;
+	font-size: 16px;
+}
+
+/*	styling the portfolio section	*/
+.port_container img {
+	border-radius: 5px;
+	opacity: 1;
+	transition: .5s ease;
+	backface-visibility: hidden;
+}
+.port_container {
+	position: relative;
+}
+.middle {
+	transition: .5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	text-align: center;
+}
+.port .port1 a {
+	color: grey;
+	background-color: #565656;
+	border: 0;
+	font-size: 18px;
+}
+.port .port1 a:hover {
+	color: #33FFFF;
+	text-decoration: none;
+}
+.port .port1 a:active {
+	color: #33FFFF;
+	border: 0;
+	text-decoration: none;
+	border-bottom: 2px solid #33FFFF;
+}
+.port_container:hover .image {
+	opacity: 0.4;
+	cursor: pointer;
+	filter: blur(2px);
+	-webkit-filter: blur(2px);
+}
+.port_container:hover .middle {
+	opacity: 1;
+}
+.text {
+	color: white;
+	font-size: 16px;
+}
+
+/*	styling the testimonial section	*/
+.test1 {
+	background-color: #252424;
+	color: grey;
+}
+.test1 img {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+}
+.test1 li {
+	color: yellow;
+}
+.carousel-indicators li {
+	width: 11px;
+	height: 11px;
+	border-radius: 50%;
+	margin: -7.5px 0px 0px 3px;
+}
+.carousel-indicators li:hover,
+.carousel-indicators li:active {
+	background-color: #33ffff;
+}
+.test-ind {
+	margin: 10px
+}
+.test-ind:hover {
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	border: 1px solid #33ffff;
+	background-color: #363636;
+}
+
+/*	styling the contact section	*/
+.contform {
+	border: #252424;
+	height: 52px;
+}
+.contform0 button {
+	padding: 14px 36px 14px 36px;
+	border-radius: 32px;
+	background-color: #33FFFF;
+	border: #33FFFF;
+	font-size: 18px;
+}
+
+/*	styling the footer section	*/
+.footer {
+	padding: 60px 5% 54px;
+	color: white;
+}
+#foot2 {
+	display: none
+}
+
+/*	responsive with css	 */
+@media (width <= 992px) {
+	.navbar {
+		height: fit-content;
+		width: 100%;
+		display: block;
+	}
+	#nav-div {
+		position: fixed;
+		right: 0;
+		top: 0;
+		margin-top: 6px;
+	}
+	#nav-img {
+		display: none !important;
+	}
+	.collapse {
+		text-align: left;
+	}
+	.colnav {
+		position: fixed;
+		z-index: 5;
+	}
+	.green a {
+		padding-left: 6px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	#homeid video {
+		display: none;
+	}
+	#wrapper p {
+		font-size: 11vw;
+	}
+	.contadd {
+		text-align: center;
+	}
+	.input-group {
+		display: inline;
+	}
+	.footer {
+		padding: 35px 5% 31px;
+	}
+	#foot1 {
+		display: none;
+	}
+	#foot2 {
+		margin-bottom: 0;
+		display: block;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.div2 h2 {
+		font-size: 11.5vw;
+	}
+	.div3 h3 {
+		margin-top: -13%;
+		font-size: 24px;
+	}
+	.vl {
+		border-left: 0px;
+	}
+}
